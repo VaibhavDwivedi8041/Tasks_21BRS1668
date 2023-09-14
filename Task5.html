@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        input[type=submit]{
+            margin-left: 670px;
+            margin-top: 20px;
+        }
+        form{
+            margin-left: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;color: blue;">Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <strong>First Name</strong>
+                </td>
+    
+                <td>
+                    <input type="text" placeholder="First Name" name="">
+                </td>
+    
+            </tr>
+            <tr>
+                <td>
+                    <strong>Last Name</strong>
+                </td>
+                <td>
+                    <input type="text" placeholder="Last Name" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Email</strong>
+                </td>
+                <td>
+                    <input type="email" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Password</strong>
+                </td>
+                <td>
+                    <input type="password" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Re-enter Password</strong>
+                </td>
+                <td>
+                    <input type="password" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <strong>Gender</strong>
+                </td>
+                <td>
+                    <input type="radio" name="gender">Male
+                </td>
+            </tr>
+            <tr>
+                
+                <td>
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Age</strong>
+                </td>
+                <td>
+                    <input type="number" name="age">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Phone Number</strong>
+                </td>
+                <td>
+                    <input type="tel">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Address</strong>
+                </td>
+                <td>
+                    <textarea rows="7" cols="40" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>State</strong>
+                </td>
+    
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Country</strong>
+                </td>
+                <td>
+                    <select>
+                        <option>
+                            Choose Your Country
+                        </option>
+                        <option>
+                            India
+                        </option>
+                        <option>
+                            China
+                        </option>
+                        <option>
+                            Srilanka
+                        </option>
+                        <option>
+                            Cyprus
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Languages Known</strong>
+                </td>
+                <td>
+                    <input type="checkbox">English
+                    <input type="checkbox">Kannada
+                    <input type="checkbox">Hindi
+                    <input type="checkbox">Telugu
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox">Hereby I declare all the given details are true
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                  <p style="text-align: right;">Log in to <a href="https://codemithra.com/" target=_blank>Ethnus</a>Website</p>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <input type="submit" value="Register">
+    
+</body>
+</html>
